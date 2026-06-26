@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_phot"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Admin" />
+
+    <item
+        android:id="@+id/user_photo"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="User Photos" />
+
+    <item
+        android:id="@+id/upload_photo"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Upload Photo" />
+
+
+    <item
+        android:id="@+id/my_photo"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="My Photo" />
+
+
+    <item
+        android:id="@+id/pdf_upload"
+        android:icon="@drawable/attach_icon"
+        android:title="PDF" />
+</menu>

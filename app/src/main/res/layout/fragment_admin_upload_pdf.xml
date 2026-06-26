@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context=".admin_pkg.admin_upload_pdf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/tvHeading"
+            android:text="Touch the icon below to upload file to server"
+
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/ivAttachment"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/attach_icon"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/user_pdf_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="60dp"
+            android:textSize="30sp"
+            android:hint="Title"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/user_pdf_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:hint="Description"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_upload"
+            android:text="Upload"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#039be5"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+package com.example.volleydemo;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+
+public class Splash extends AppCompatActivity {
+
+
+    private Handler handler;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setIcon(R.mipmap.ic_launcher_round);
+
+
+        handler=new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent=new Intent(Splash.this,MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        },5000);
+    }
+}

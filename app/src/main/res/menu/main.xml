@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mrohi.employeechecker"
+    >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+        android:title="Add New Data"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+        android:title="Logout"/>
+</menu>
